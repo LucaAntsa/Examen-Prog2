@@ -1,0 +1,13 @@
+
+STD23060
+
+1- Le mot-clé @override est utilisé pour définir une méthode qui est héritée de la classe parente. On ne l'utilise donc que dans le cas de l'héritage.
+2-
+3-Polymorphisme statique : le choix de la forme appropriée est déterminé au moment de la compilation à partir de la déclaration de l'objet polymorphe.
+--> mécanisme de surcharge.
+Surcharge des fonctions et des opérateurs :
+class figure {
+public :
+   void afficher(const couleur fond) const ;
+   void afficher(const string message) const ;
+   void afficher(void) const ;
